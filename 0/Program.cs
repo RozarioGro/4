@@ -3,9 +3,9 @@
 2, 4 -> 16*/
 Console.Clear();
 Console.Write("Enter number A: ");
-int a = int.Parse(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter number B: ");
-double b = double.Parse(Console.ReadLine());
+double b = Convert.ToDouble(Console.ReadLine());
 Console.Write($"число {a} в натуральной степени {b} -> {GetExp(a, b)}");
 int GetExp(int n, double s)
 {
